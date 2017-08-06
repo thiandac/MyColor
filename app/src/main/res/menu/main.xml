@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="thiandac.mycolor.MainActivity" >
+
+    <item
+        android:id="@+id/animUp"
+        android:orderInCategory="100"
+        android:title="Animate Up"/>
+    <item
+        android:id="@+id/animDown"
+        android:orderInCategory="100"
+        android:title="Animate Down"/>
+    <item
+        android:id="@+id/toggleMinMaxLabel"
+        android:orderInCategory="100"
+        android:title="Toggle MinMax Label"/>
+    <item
+        android:id="@+id/toggleValueLabel"
+        android:orderInCategory="100"
+        android:title="Toggle Value Label"/>
+
+    <item
+        android:id="@+id/viewGithub"
+        android:orderInCategory="100"
+        android:title="View on GitHub"/>
+
+</menu>
